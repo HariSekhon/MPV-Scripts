@@ -52,18 +52,6 @@ TODO: update Codacy grade link below - it's a hash so cannot be predicted to rep
 
 ## PUT CONTENT HERE
 
-### Customize Repo in 1 Command
-
-Run this script to replace the repo name and workflow URL references across the configurations for CI/CD and
-other variety of files in this repo:
-
-```shell
-git submodule update --init
-./customize.sh <new_repo_name>
-```
-
-Then delete the script and edit this README.
-
 **Ensure to update Codacy Grade link manually after adding this repo to Codacy since the link is a hash and therefore cannot be predicted for replacement by `./customize.sh`**
 
 ## More Core Repos
