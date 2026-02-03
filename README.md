@@ -42,11 +42,26 @@
 [![SonarCloud](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/sonarcloud.yaml/badge.svg)](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/sonarcloud.yaml)
 [![Trivy](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/trivy.yaml)
 
+<!-- INDEX_START -->
+
+- [Summary](#summary)
+- [MPV](#mpv)
+- [MPV Config](#mpv-config)
+- [MPV Scripts](#mpv-scripts)
+
+<!-- INDEX_END -->
+
 ## Summary
 
 Lua code to control the behaviour of the excellent open source `mpv` video player.
 
 See the `scripts/` directory for the Lua code to control MPV.
+
+## MPV
+
+<https://mpv.io/>
+
+[:octocat: mpv-player/mpv](https://github.com/mpv-player/mpv)
 
 ## MPV Config
 
@@ -76,12 +91,6 @@ Related Docs:
 [:octocat: HariSekhon/Knowledge-Base - Lua page](https://github.com/HariSekhon/Knowledge-Base/blob/main/lua.md)
 
 [:octocat: HariSekhon/Knowledge-Base - MPV page](https://github.com/HariSekhon/Knowledge-Base/blob/main/mpv.md)
-
-## MPV
-
-<https://mpv.io/>
-
-[:octocat: mpv-player/mpv](https://github.com/mpv-player/mpv)
 
 ## More Core Repos
 
