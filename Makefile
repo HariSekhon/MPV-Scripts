@@ -42,20 +42,14 @@ CODE_FILES := $(shell git ls-files | grep -E -e '\.sh$$' -e '\.py$$' | sort)
 
 .PHONY: build
 build: init
-	@echo ================
+	@echo ==================
 	@echo MPV-Scripts Builds
-	@echo ================
+	@echo ==================
 	@$(MAKE) git-summary
 	@echo
-	# defer via external sub-call, otherwise will result in error like
-	# make: *** No rule to make target 'python-version', needed by 'build'.  Stop.
-	@$(MAKE) python-version
-
-	if [ -z "$(CPANM)" ]; then make; exit $$?; fi
-	$(MAKE) system-packages-python
-
-	# TODO: uncomment if adding requirements.txt with pip modules
-	#$(MAKE) python
+	bash-tools/packages/install_packages_if_absent.sh mpv
+	@echo
+	@$(MAKE) install
 
 .PHONY: init
 init:
@@ -65,21 +59,5 @@ init:
 	@echo
 
 .PHONY: install
-install: build
-	@:
-
-.PHONY: python
-python:
-	@PIP=$(PIP) PIP_OPTS="--ignore-installed" bash-tools/python/python_pip_install_if_absent.sh requirements.txt
-	@echo
-	$(MAKE) pycompile
-	@echo
-	@echo 'BUILD SUCCESSFUL (MPV-Scripts)'
-
-.PHONY: test
-test:
-	bash-tools/checks/check_all.sh
-
-.PHONY: clean
-clean:
-	@rm -fv -- *.pyc *.pyo
+install:
+	ln -sFv "$(PWD)" ~/.config/mpv
