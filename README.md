@@ -50,7 +50,21 @@ TODO: update Codacy grade link below - it's a hash so cannot be predicted to rep
 [![SonarCloud](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/sonarcloud.yaml/badge.svg)](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/sonarcloud.yaml)
 [![Trivy](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/MPV-Scripts/actions/workflows/trivy.yaml)
 
-## PUT CONTENT HERE
+## Summary
+
+Lua code to control the behaviour of the excellent open source `mpv` video player.
+
+Examples:
+
+- only resuming videos that are a certain length, position, file extension and under a specific directory tree
+- sets playback speed if environment variable `MPV_SPEED` is set - useful integration with direnv for specific videos (eg. I always watch all YouTube videos at double speed)
+- delete a video after completed playback if `MPV_DELETE_ON_EOF` environment variable is set, for those videos you downloaded to only watch once
+
+Related Docs:
+
+[:octocat: HariSekhon/Knowledge-Base - Lua page](https://github.com/HariSekhon/Knowledge-Base/blob/main/lua.md)
+
+[:octocat: HariSekhon/Knowledge-Base - MPV page](https://github.com/HariSekhon/Knowledge-Base/blob/main/mpv.md)
 
 **Ensure to update Codacy Grade link manually after adding this repo to Codacy since the link is a hash and therefore cannot be predicted for replacement by `./customize.sh`**
 
