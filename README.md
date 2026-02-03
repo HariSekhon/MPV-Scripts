@@ -8,16 +8,14 @@
 [![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/MPV-Scripts?logo=github)](https://github.com/HariSekhon/MPV-Scripts/commits/master)
 
-TODO: update Codacy grade link below - it's a hash so cannot be predicted to replace via `./customize.sh`
-
-[![Codacy](https://app.codacy.com/project/badge/Grade/abce2438224948fd93d462cd6aba3aaf)](https://www.codacy.com/gh/HariSekhon/MPV-Scripts/dashboard)
+[![Codacy](https://app.codacy.com/project/badge/Grade/2301baad8cde440ea1c27889a936bf28)](https://app.codacy.com/gh/HariSekhon/MPV-Scripts/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/harisekhon/MPV-Scripts/badge)](https://www.codefactor.io/repository/github/harisekhon/MPV-Scripts)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_MPV-Scripts&metric=alert_status)](https://sonarcloud.io/dashboard?id=HariSekhon_MPV-Scripts)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_MPV-Scripts&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_MPV-Scripts)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_MPV-Scripts&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_MPV-Scripts)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_MPV-Scripts&metric=security_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_MPV-Scripts)
 
-[![Python](https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white)](#readme)
+[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
 [![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
 [![Mac](https://img.shields.io/badge/OS-Mac-blue?logo=apple)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
 
@@ -29,12 +27,6 @@ TODO: update Codacy grade link below - it's a hash so cannot be predicted to rep
 [![Redhat](https://img.shields.io/badge/Linux-Redhat-EE0000?logo=red%20hat)](https://www.redhat.com/en)
 [![Rocky](https://img.shields.io/badge/Linux-Rocky-10B981?logo=rockylinux&logoColor=white)](https://rockylinux.org/)
 [![Ubuntu](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-
-<!-- TODO: Replace Azure DevOps Pipeline ID here -->
-[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
-[![Azure DevOps Pipeline](https://dev.azure.com/harisekhon/GitHub/_apis/build/status%2FMPV-Scripts?branchName=master)](https://dev.azure.com/harisekhon/GitHub/_build/latest?definitionId=15&branchName=master)
-[![GitLab Pipeline](https://img.shields.io/badge/GitLab%20CI-legacy-lightgrey?logo=gitlab)](https://gitlab.com/HariSekhon/MPV-Scripts/pipelines)
-[![BitBucket Pipeline](https://img.shields.io/badge/Bitbucket%20CI-legacy-lightgrey?logo=bitbucket)](https://bitbucket.org/HariSekhon/MPV-Scripts/addon/pipelines/home#!/)
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-2088FF?logo=github)](https://github.com/HariSekhon/MPV-Scripts)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-FCA121?logo=gitlab)](https://gitlab.com/HariSekhon/MPV-Scripts)
