@@ -46,13 +46,30 @@
 
 Lua code to control the behaviour of the excellent open source `mpv` video player.
 
-Examples:
+See the `scripts/` directory for the Lua code to control MPV.
 
-- only resuming videos that are a certain length, position, file extension and under a specific directory tree
-- sets playback speed if environment variable `MPV_SPEED` is set - useful integration with direnv for specific videos (eg. I always watch all YouTube videos at double speed)
-- delete a video after completed playback if `MPV_DELETE_ON_EOF` environment variable is set, for those videos you downloaded to only watch once
+## MPV Config
 
-Migrated from [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
+- `mpv.conf` - MPV settings such as saving position on quit
+
+## MPV Scripts
+
+Under the `scripts/` directory:
+
+- `resume-conditions.lua` - only resume videos that:
+  - are at least 10 minutes long
+  - have been playing for at least 5 minutes
+  - have a certain file extension
+  - are under a specific directory tree
+- `speed.lua` - sets playback speed if environment variable `MPV_SPEED` is set
+- `delete_on_eof.lua` - delete a video after completed playback if environment variable `MPV_DELETE_ON_EOF` is set to any value
+  - for those videos you downloaded to only watch once
+  - this automatic cleanup helps to save space and reduces you needing to manually delete the video
+
+The environment variables above are useful when used with direnv for specific video directories
+(eg. I always watch all YouTube videos at double speed and delete them after one complete play).
+
+Migrated from [:octocat: DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
 
 Related Docs:
 
@@ -60,7 +77,11 @@ Related Docs:
 
 [:octocat: HariSekhon/Knowledge-Base - MPV page](https://github.com/HariSekhon/Knowledge-Base/blob/main/mpv.md)
 
-**Ensure to update Codacy Grade link manually after adding this repo to Codacy since the link is a hash and therefore cannot be predicted for replacement by `./customize.sh`**
+## MPV
+
+<https://mpv.io/>
+
+[:octocat: mpv-player/mpv](https://github.com/mpv-player/mpv)
 
 ## More Core Repos
 
