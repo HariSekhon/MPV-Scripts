@@ -60,6 +60,8 @@ Examples:
 - sets playback speed if environment variable `MPV_SPEED` is set - useful integration with direnv for specific videos (eg. I always watch all YouTube videos at double speed)
 - delete a video after completed playback if `MPV_DELETE_ON_EOF` environment variable is set, for those videos you downloaded to only watch once
 
+Migrated from [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
+
 Related Docs:
 
 [:octocat: HariSekhon/Knowledge-Base - Lua page](https://github.com/HariSekhon/Knowledge-Base/blob/main/lua.md)
