@@ -60,4 +60,4 @@ init:
 
 .PHONY: install
 install:
-	ln -sFv "$(PWD)" ~/.config/mpv
+	ln -sfnv "$(PWD)" ~/.config/mpv
